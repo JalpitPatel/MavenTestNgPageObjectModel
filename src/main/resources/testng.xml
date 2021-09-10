@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Testing_I2E Practical TestSuit">
+
+	<listeners>
+		<listener class-name="com.selenium.utility.TestListeners" />
+	</listeners>
+	<parameter name="searchText" value="New" />
+	<test name="Automation Tests">
+		<groups>
+			<run>
+				<include name="Functional" />
+			</run>
+		</groups>
+		<classes>
+			<class name="com.selenium.test.OrderItemTest"></class> 
+			<class name="com.selenium.test.SearchToursTest"></class>
+		</classes>
+	</test>
+
+</suite>

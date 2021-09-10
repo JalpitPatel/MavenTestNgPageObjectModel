@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-10T15:36:36 IST" name="Automation Testing_I2E Practical TestSuit" finished-at="2021-09-10T15:37:03 IST" duration-ms="26501">
+    <groups>
+      <group name="Functional">
+        <method signature="OrderItemTest.SC01_TC02_OrderItem()[pri:0, instance:com.selenium.test.OrderItemTest@169e6180]" name="SC01_TC02_OrderItem" class="com.selenium.test.OrderItemTest"/>
+      </group> <!-- Functional -->
+    </groups>
+    <test started-at="2021-09-10T15:36:36 IST" name="Automation Tests" finished-at="2021-09-10T15:37:03 IST" duration-ms="26501">
+      <class name="com.selenium.test.OrderItemTest">
+        <test-method is-config="true" signature="setBrowser()[pri:0, instance:com.selenium.test.OrderItemTest@169e6180]" started-at="2021-09-10T15:36:36 IST" name="setBrowser" finished-at="2021-09-10T15:36:53 IST" duration-ms="16369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setBrowser -->
+        <test-method signature="SC01_TC02_OrderItem()[pri:0, instance:com.selenium.test.OrderItemTest@169e6180]" started-at="2021-09-10T15:36:53 IST" name="SC01_TC02_OrderItem" finished-at="2021-09-10T15:37:03 IST" duration-ms="9762" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SC01_TC02_OrderItem -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:com.selenium.test.OrderItemTest@169e6180]" started-at="2021-09-10T15:37:03 IST" name="afterTest" finished-at="2021-09-10T15:37:03 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.selenium.test.OrderItemTest -->
+    </test> <!-- Automation Tests -->
+  </suite> <!-- Automation Testing_I2E Practical TestSuit -->
+</testng-results>

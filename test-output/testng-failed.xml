@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Automation Testing_I2E Practical TestSuit]" guice-stage="DEVELOPMENT">
+  <parameter name="searchResult" value="City Tour New Delhi old Delhi"/>
+  <parameter name="password" value="Gtl@123"/>
+  <parameter name="searchText" value="New"/>
+  <parameter name="email" value="gtl_test@thegatewaycorp.com"/>
+  <listeners>
+    <listener class-name="com.selenium.utility.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="Automation Tests(failed)">
+    <groups>
+      <run>
+        <include name="Functional"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.selenium.test.OrderItemTest">
+        <methods>
+          <include name="SC01_TC01_LoginPage" invocation-numbers="0"/>
+          <include name="setBrowser"/>
+          <include name="SC01_TC02_OrderItem"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.selenium.test.OrderItemTest -->
+    </classes>
+  </test> <!-- Automation Tests(failed) -->
+</suite> <!-- Failed suite [Automation Testing_I2E Practical TestSuit] -->
